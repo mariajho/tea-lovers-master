@@ -44,3 +44,11 @@ function navToggle() {
 
 };
 
+/*menu*/
+$('.dropdown-toggle').dropdown();
+
+/*carousel*/
+$('.carousel').carousel({
+  interval: 2000
+})
+

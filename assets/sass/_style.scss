@@ -317,18 +317,18 @@ p{
 
 /*seccion nueve*/
 
- .texto-nueve{
+.texto-nueve{
   position:relative;
   bottom:380px;
   width:360px;
   left:20px;
   font-weight:bold;
 }
-s
+
 .parrafo-nueve{
   position:relative;
   top:-380px;
-  left:20px;
+  left:15px;
   width:380px;
   font-size:17px;
 }
@@ -345,4 +345,64 @@ s
   position:relative;
   top:150px;
   left:120px;
+}
+
+/*seccion diez*/
+#diez-img{
+  position:relative;
+  top:-440px;
+}
+
+.titulo-dos{
+  position:relative;
+  top:-1000px;
+  left:300px;
+  color: white;
+  font-weight:bold;
+  font-size:80px;
+}
+
+.logo-tres{
+  position:relative;
+  top:-1200px;
+}
+
+/*carousel*/
+#carousel{
+  position:relative;
+  top:-620px;
+}
+
+/*seccion once*/
+
+#texto-te{
+  font-weight:bold;
+  position:relative;
+  top:-500px;
+}
+
+#parrafo-once{
+  position:relative;
+  top:-460px;
+  left:180px;
+  width: 400px;
+  text-align:justify;
+}
+
+ul{
+  position:relative;
+  top:-430px;
+  left:50px;
+  font-size:15px;
+}
+
+.logo-cuatro{
+
+}
+
+#img-paquete{
+  position:relative;
+  top:-500px;
+  left:150px;
+  width:400px;
 }
