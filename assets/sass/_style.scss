@@ -1,6 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
-
-
+/*
 body {
   font-family: "Lato", sans-serif;
   overflow:hidden;
@@ -8,13 +6,7 @@ body {
 }
 
 nav{
-   background-image: url("../images/")
-}
-
-#logo{
-  margin-left:12%;
-  margin-top:10%;
-  width:50px;
+ background-image: url("../images/")
 }
 
 .navigation {
@@ -122,7 +114,7 @@ nav{
   z-index:100;
   color:white;
   cursor:pointer;
-  trainsition:background-position .3s;
+  transition:background-position .3s;
 }
 
 #main {	
@@ -131,5 +123,131 @@ nav{
   margin:auto;
   padding: 16px;
   font-size:30px;
-}
+  }*/
 
+
+
+  /*seccion-tres*/
+
+  #logo-desktop{
+    margin-left:-1%;
+    margin-top:-60%;
+
+  }
+
+  .titulo{
+    color: white;
+    font-weight:bold;
+    font-size:80px;
+    margin-top:25%;
+    margin-left:20%;
+    width:100px;
+  }
+
+  .parrafo{
+    color: white;
+    width:800px;
+    margin-left:20%;
+    font-size:25px;
+  }
+
+
+  /*seccion-cuatro*/
+
+  .te{
+    color: #EA9897;
+    font-weight:bold;
+    margin-top: 120%;
+    font-size:50px;
+
+  }
+
+  .parrafo-te{
+    color:#898081;
+    font-weight:bold;
+    margin-bottom:30%;
+  }
+
+  /*seccion-cinco*/
+
+  .img-1{
+    position:relative;
+    right:73px;
+    width:116%;
+  }
+
+  .img-2{
+    position:relative;
+    right:30px;
+  }
+
+  .img-3{
+    position:relative;
+    left:12px;
+  }
+
+  .img-4{
+    position:relative;
+    right:14px;
+    bottom:75px;
+  }
+
+  #mini-texto{
+    color:white;
+    position:relative;
+    bottom:400px;
+    font-weight:bold;
+  }
+
+  #mini-texto1{
+    color:white;
+    position:relative;
+    bottom:200px;
+    width:200px;
+    left:60px;
+    text-align:center;
+    font-weight:bold;
+  }
+
+  #mini-texto2{
+    color:white;
+    position:relative;
+    bottom:200px;
+    width:250px;
+    left:60px;
+    text-align:center;
+    font-weight:bold;
+  }
+
+  #mini-texto3{
+    color:white;
+    position:relative;
+    bottom:270px;
+    width:260px;
+    left:120px;
+    text-align:center;
+    font-weight:bold;
+  }
+
+  /*seccion seis*/
+
+  .img-6{
+    position:relative;
+    right:73px;
+    top:-151px;
+  }
+
+  .titulo-2{
+   color: white;
+   font-weight:bold;
+   font-size:80px;
+   position:relative;
+   bottom:680px;
+   width: 600px;
+   left:250px; 
+ }
+
+ .logo{
+   position:relative;
+   bottom:900px;
+}
