@@ -48,7 +48,5 @@ function navToggle() {
 $('.dropdown-toggle').dropdown();
 
 /*carousel*/
-$('.carousel').carousel({
-  interval: 5000
-})
+$('#slides').superslides();
 

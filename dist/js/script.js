@@ -12676,3 +12676,9 @@ function navToggle() {
 
 };
 
+/*menu*/
+$('.dropdown-toggle').dropdown();
+
+/*carousel*/
+$('#slides').superslides();
+
