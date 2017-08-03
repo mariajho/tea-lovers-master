@@ -48,5 +48,5 @@ function navToggle() {
 $('.dropdown-toggle').dropdown();
 
 /*carousel*/
-$('#slides').superslides();
+$('.carousel').carousel()
 

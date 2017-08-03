@@ -193,7 +193,7 @@ body {
 #cuatro{
   padding-top:60px;
   padding-bottom:60px;
-  margin-left:140px;
+  margin-left:110px;
 }
 
 .te{
@@ -201,78 +201,80 @@ body {
   font-size:50px;
   font-weight:bold;
   text-align:center;
-
 }
+
 .espacio{
   margin:10px;
 }
 
-
+.descripcion{
+  font-size:15px;
+}
 
 
 /*seccion cinco*/
 #cinco{
-.container-efecto {
-  position: absolute;
-  left: 0;
-  right: 0;
-  margin: 0 auto;
-  
-}
-.div-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.div-img.oculto {
-  overflow: hidden;
-}
-.div-img .img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  transform: scale(1);
-  -ms-transform: scale(1);
-  -moz-transform: scale(1);
-  -webkit-transform: scale(1);
-  -o-transform: scale(1);
-  -webkit-transition: all 500ms ease-in-out;
-  -moz-transition: all 500ms ease-in-out;
-  -ms-transition: all 500ms ease-in-out;
-  -o-transition: all 500ms ease-in-out;
-}
-.div-img:hover .img-1 {
-  transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-}
+  .container-efecto {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 
-.div-img:hover .img-2 {
-  transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-}
+  }
+  .div-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .div-img.oculto {
+    overflow: hidden;
+  }
+  .div-img .img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+  }
+  .div-img:hover .img-1 {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
 
-.div-img:hover .img-3 {
-  transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-}
+  .div-img:hover .img-2 {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
 
-.div-img:hover .img-4 {
-  transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -o-transform: scale(1.2);
-}
+  .div-img:hover .img-3 {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
+
+  .div-img:hover .img-4 {
+    transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
 }
 
 
@@ -308,18 +310,35 @@ body {
 }
 
 #mini-texto{
-  
+  padding-top:250px;
+  padding-left:80px;
+  color:white;
+  font-size:15px;
 }
 
 #mini-texto1{
-  
+  padding-top:100px;
+  padding-left:40px;
+  width:250px;
+  color:white;
+  font-size:15px;
+
 }
 
 #mini-texto2{
-  
+  padding-top:100px;
+  padding-left:20px;
+  width:250px;
+  color:white;
+  font-size:15px;
 }
+
 #mini-texto3{
-  
+  padding-top:150px;
+  padding-left:120px;
+  width:350px;
+  color:white;
+  font-size:15px;
 }
 
 
@@ -327,6 +346,130 @@ body {
 
 #seis{
   background-image:url('../img/disfruta.jpg');
+  background-position: center;
+  background-size: cover;
+  height:100vh;
+}
+
+.titulo-uno{
+  color:white;
+  font-weight:bold;
+  font-size:80px;
+  text-align:justify;
+  padding-left:280px;
+  padding-top:240px;
+}
+
+
+/*seccion siete*/
+#siete{
+  height:100vh;
+}
+
+.texto-siete{
+  font-weight:bold;
+  width:300px;
+  padding-top:40px;
+}
+
+.parrafo-siete{
+  font-size:15px;
+  width:350px;
+}
+
+.fondo-amarillo{
+ background-color: #8ec641;
+ height:100vh;
+
+}
+
+
+/*seccion ocho*/
+#ocho{
+  height:100vh;
+}
+
+.texto-ocho{
+  font-weight:bold;
+  width:420px;
+  padding-top:40px;
+  padding-left:170px;
+}
+
+.parrafo-ocho{
+  font-size:15px;
+  width:220px;
+  padding-left:100px;
+}
+
+.fondo-verde{
+ background-color: #f0e7ae;
+ height:100vh;
+
+}
+
+/*seccion nueve*/
+
+#nueve{
+  height:100vh;
+}
+
+.texto-nueve{
+  font-weight:bold;
+  width:300px;
+  padding-top:40px;
+}
+
+.parrafo-nueve{
+  font-size:15px;
+  width:350px;
+}
+
+.fondo-rosado{
+ background-color: #ed9a9d;
+ height:100vh;
+}
+
+/*seccion diez*/
+#diez{
+  height:100vh;
+  background-image:url('../img/parallax-4.jpg');
+}
+
+.titulo-tres{
+  color:white;
+  font-weight:bold;
+  font-size:80px;
+  text-align:justify;
+  padding-left:280px;
+  padding-top:150px;
+
+}
+
+
+/*seccion doce*/
+.doce{
+  height:100vh;
+  padding-top:80px;
+  margin-bottom:10%;
+}
+
+h2{
+  padding-top:25px;
+}
+
+p{
+  font-size:17px;
+}
+
+ul{
+  font-size:17px;
+  padding-left:60px;
+}
+
+.imagen-te{
+  background-image:url('../img/paquete.png');
+  height:100vh;
 }
 
 
