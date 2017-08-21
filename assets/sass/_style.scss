@@ -303,11 +303,12 @@ body {
 
 .img-4{
   background-image:url('../img/min-video-6.jpg');
-  height:290px;
+  height:250px;
   background-repeat:no-repeat;
-  background-size:cover;
-  
+  background-size:cover; 
 }
+
+
 
 #mini-texto{
   padding-top:250px;
@@ -364,6 +365,16 @@ body {
 /*seccion siete*/
 #siete{
   height:100vh;
+}
+
+.img-siete{
+  height:250px;
+  background-repeat:no-repeat;
+  background-size:cover; 
+}
+
+img{
+  padding-top:60px;
 }
 
 .texto-siete{
